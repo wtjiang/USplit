@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256767D8FF0E35FDEDA2F7DF /* Pods_USplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A1EA5CE15526057DD92E19 /* Pods_USplit.framework */; };
+		44D1B9EA218EACD600C6045C /* UploadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1B9E9218EACD600C6045C /* UploadData.swift */; };
 		44FEF0A2218E6BAA004D9E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEF0A1218E6BAA004D9E6F /* AppDelegate.swift */; };
-		44FEF0A4218E6BAA004D9E6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEF0A3218E6BAA004D9E6F /* ViewController.swift */; };
+		44FEF0A4218E6BAA004D9E6F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEF0A3218E6BAA004D9E6F /* LogInViewController.swift */; };
 		44FEF0A7218E6BAA004D9E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0A5218E6BAA004D9E6F /* Main.storyboard */; };
 		44FEF0A9218E6BAC004D9E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0A8218E6BAC004D9E6F /* Assets.xcassets */; };
 		44FEF0AC218E6BAC004D9E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0AA218E6BAC004D9E6F /* LaunchScreen.storyboard */; };
 		44FEF0B7218E6BAC004D9E6F /* USplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEF0B6218E6BAC004D9E6F /* USplitUITests.swift */; };
+		44FEF0C4218E6CDE004D9E6F /* Usplit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0C2218E6CDE004D9E6F /* Usplit.jpg */; };
+		44FEF0C5218E6CDE004D9E6F /* Usplit.png in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0C3218E6CDE004D9E6F /* Usplit.png */; };
+		44FEF0C7218E6DB2004D9E6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44FEF0C6218E6DB2004D9E6F /* GoogleService-Info.plist */; };
+		6F21ECBDDEC92FE0C3E78F27 /* Pods_USplitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F522445B138EFDD69CF0B /* Pods_USplitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D94BF00545457D6501FB2E3 /* Pods-USplitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USplitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USplitUITests/Pods-USplitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		268EE44E5D40E15C3D29F71B /* Pods-USplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USplit/Pods-USplit.debug.xcconfig"; sourceTree = "<group>"; };
+		44D1B9E9218EACD600C6045C /* UploadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadData.swift; sourceTree = "<group>"; };
 		44FEF09E218E6BAA004D9E6F /* USplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FEF0A1218E6BAA004D9E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44FEF0A3218E6BAA004D9E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44FEF0A3218E6BAA004D9E6F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		44FEF0A6218E6BAA004D9E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44FEF0A8218E6BAC004D9E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44FEF0AB218E6BAC004D9E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,13 @@
 		44FEF0B2218E6BAC004D9E6F /* USplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FEF0B6218E6BAC004D9E6F /* USplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USplitUITests.swift; sourceTree = "<group>"; };
 		44FEF0B8218E6BAC004D9E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FEF0C2218E6CDE004D9E6F /* Usplit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Usplit.jpg; path = ../../../Desktop/Usplit.jpg; sourceTree = "<group>"; };
+		44FEF0C3218E6CDE004D9E6F /* Usplit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Usplit.png; path = ../../../Desktop/Usplit.png; sourceTree = "<group>"; };
+		44FEF0C6218E6DB2004D9E6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CA4570E3EB385C8CDB75DF5 /* Pods-USplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-USplit/Pods-USplit.release.xcconfig"; sourceTree = "<group>"; };
+		A8A1EA5CE15526057DD92E19 /* Pods_USplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F522445B138EFDD69CF0B /* Pods_USplitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USplitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D071C7F8E41E78026856B2CD /* Pods-USplitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USplitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-USplitUITests/Pods-USplitUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256767D8FF0E35FDEDA2F7DF /* Pods_USplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F21ECBDDEC92FE0C3E78F27 /* Pods_USplitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44D1B9E6218EAC6800C6045C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44D1B9E9218EACD600C6045C /* UploadData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44D1B9E7218EAC6D00C6045C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44FEF0A5218E6BAA004D9E6F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44D1B9E8218EAC7800C6045C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44FEF0A3218E6BAA004D9E6F /* LogInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		44FEF095218E6BAA004D9E6F = {
 			isa = PBXGroup;
 			children = (
 				44FEF0A0218E6BAA004D9E6F /* USplit */,
 				44FEF0B5218E6BAC004D9E6F /* USplitUITests */,
 				44FEF09F218E6BAA004D9E6F /* Products */,
+				59BC4B92234568F647823047 /* Pods */,
+				666D3F14867777A04DFC92AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +121,12 @@
 		44FEF0A0218E6BAA004D9E6F /* USplit */ = {
 			isa = PBXGroup;
 			children = (
+				44D1B9E6218EAC6800C6045C /* Model */,
+				44D1B9E7218EAC6D00C6045C /* View */,
+				44D1B9E8218EAC7800C6045C /* Controller */,
+				44FEF0C1218E6CCE004D9E6F /* Images */,
 				44FEF0A1218E6BAA004D9E6F /* AppDelegate.swift */,
-				44FEF0A3218E6BAA004D9E6F /* ViewController.swift */,
-				44FEF0A5218E6BAA004D9E6F /* Main.storyboard */,
+				44FEF0C6218E6DB2004D9E6F /* GoogleService-Info.plist */,
 				44FEF0A8218E6BAC004D9E6F /* Assets.xcassets */,
 				44FEF0AA218E6BAC004D9E6F /* LaunchScreen.storyboard */,
 				44FEF0AD218E6BAC004D9E6F /* Info.plist */,
@@ -96,6 +143,35 @@
 			path = USplitUITests;
 			sourceTree = "<group>";
 		};
+		44FEF0C1218E6CCE004D9E6F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				44FEF0C2218E6CDE004D9E6F /* Usplit.jpg */,
+				44FEF0C3218E6CDE004D9E6F /* Usplit.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		59BC4B92234568F647823047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				268EE44E5D40E15C3D29F71B /* Pods-USplit.debug.xcconfig */,
+				5CA4570E3EB385C8CDB75DF5 /* Pods-USplit.release.xcconfig */,
+				0D94BF00545457D6501FB2E3 /* Pods-USplitUITests.debug.xcconfig */,
+				D071C7F8E41E78026856B2CD /* Pods-USplitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		666D3F14867777A04DFC92AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1EA5CE15526057DD92E19 /* Pods_USplit.framework */,
+				CC7F522445B138EFDD69CF0B /* Pods_USplitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FEF0BB218E6BAC004D9E6F /* Build configuration list for PBXNativeTarget "USplit" */;
 			buildPhases = (
+				03619ED97D34CFF980902D2E /* [CP] Check Pods Manifest.lock */,
 				44FEF09A218E6BAA004D9E6F /* Sources */,
 				44FEF09B218E6BAA004D9E6F /* Frameworks */,
 				44FEF09C218E6BAA004D9E6F /* Resources */,
+				A78EE71057089054F67D2FA6 /* [CP] Embed Pods Frameworks */,
+				7FB92A2ADD2C476CD6492955 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FEF0BE218E6BAC004D9E6F /* Build configuration list for PBXNativeTarget "USplitUITests" */;
 			buildPhases = (
+				9F4FBD6FCF92D2A6252A5743 /* [CP] Check Pods Manifest.lock */,
 				44FEF0AE218E6BAC004D9E6F /* Sources */,
 				44FEF0AF218E6BAC004D9E6F /* Frameworks */,
 				44FEF0B0218E6BAC004D9E6F /* Resources */,
@@ -179,7 +259,10 @@
 			files = (
 				44FEF0AC218E6BAC004D9E6F /* LaunchScreen.storyboard in Resources */,
 				44FEF0A9218E6BAC004D9E6F /* Assets.xcassets in Resources */,
+				44FEF0C4218E6CDE004D9E6F /* Usplit.jpg in Resources */,
+				44FEF0C5218E6CDE004D9E6F /* Usplit.png in Resources */,
 				44FEF0A7218E6BAA004D9E6F /* Main.storyboard in Resources */,
+				44FEF0C7218E6DB2004D9E6F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +275,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03619ED97D34CFF980902D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USplit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB92A2ADD2C476CD6492955 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-USplit/Pods-USplit-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USplit/Pods-USplit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4FBD6FCF92D2A6252A5743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USplitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A78EE71057089054F67D2FA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-USplit/Pods-USplit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USplit/Pods-USplit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44FEF09A218E6BAA004D9E6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44FEF0A4218E6BAA004D9E6F /* ViewController.swift in Sources */,
+				44D1B9EA218EACD600C6045C /* UploadData.swift in Sources */,
+				44FEF0A4218E6BAA004D9E6F /* LogInViewController.swift in Sources */,
 				44FEF0A2218E6BAA004D9E6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +561,7 @@
 		};
 		44FEF0BC218E6BAC004D9E6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268EE44E5D40E15C3D29F71B /* Pods-USplit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +580,7 @@
 		};
 		44FEF0BD218E6BAC004D9E6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA4570E3EB385C8CDB75DF5 /* Pods-USplit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +599,7 @@
 		};
 		44FEF0BF218E6BAC004D9E6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D94BF00545457D6501FB2E3 /* Pods-USplitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +620,7 @@
 		};
 		44FEF0C0218E6BAC004D9E6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D071C7F8E41E78026856B2CD /* Pods-USplitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

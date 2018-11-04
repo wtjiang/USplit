@@ -1,0 +1,6 @@
+framework module Pods_USplit {
+  umbrella header "Pods-USplit-umbrella.h"
+
+  export *
+  module * { export * }
+}

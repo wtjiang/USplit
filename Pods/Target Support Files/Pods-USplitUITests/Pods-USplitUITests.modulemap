@@ -1,0 +1,6 @@
+framework module Pods_USplitUITests {
+  umbrella header "Pods-USplitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
